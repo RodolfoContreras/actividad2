@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header "
+                            "main aside"
+}
+
+#baner {
+    background-color: rgba(5, 5, 5, 0.1);
+    height: 150px;
+    width: 100%;
+    grid-area: header;
+}
+#jeder {
+    
+    grid-area: main;
+}
+#menunav a {
+    background-color:  rgb(241, 241, 12, 0.5);
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+#menunav {
+    background-color: rgba(5, 5, 5, 0.1);
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+
+#cofistros {
+    width: 80%
+}
+
+.imin {
+    width: 30%;
+    margin-bottom: 3em;
+}
+#mein {
+    background-color: rgba(5, 5, 5, 0.1);
+    margin-left: 1em;
+    margin-top: 1em;
+
+    grid-area: aside;
+  
+}
